@@ -1,0 +1,280 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .content_head>div>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main_head h1 {
+        font-size: 40px;
+    }
+
+    .content_head h2,
+    .role_head h2,
+    .content_head2 h2,
+    .content_working h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .content_head p,
+    .role_head p {
+        font-size: 16px;
+    }
+
+    .scp_w30>h5,
+    .scp_w70>h5,
+    .activities ul li,
+    .content_working p {
+        font-size: 16px;
+    }
+
+    .bck_home {
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .about_desc_img {
+        position: relative;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .aboutme_desc {
+        padding: 25px;
+    }
+
+    .about_me_head {
+        padding: 25px 0;
+    }
+    .brown_bg ul li {
+        font-size: 16px;
+    }
+    .analysisListing .customList h3 {
+        font-size: 21px;
+    }
+    .analysisListing .customList ul li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .homepage {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .basic_info>h2 {
+        margin-bottom: 30px;
+    }
+
+    .basic_info {
+        margin-bottom: 80px;
+    }
+
+    .my_work>h3 {
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+
+    .row.my_work_row,
+    .my_value {
+        padding-bottom: 50px;
+    }
+
+    .btn {
+        height: 50px;
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+
+    footer {
+        max-width: 100%;
+        padding: 60px 0;
+    }
+
+    .basic_info>.btn-flex>a.social_lks,
+    .about_me_head>.btn-flex>a.social_lks {
+        width: 55px;
+        height: 55px;
+        padding: 20px;
+    }
+
+    .wrapper.contents {
+        padding-top: 30px;
+    }
+
+    .main_head h1 {
+        font-size: 28px;
+    }
+
+    .content_head h2,
+    .role_head h2,
+    .content_head2 h2,
+    .content_working h2 {
+        font-size: 25px;
+    }
+
+    section.py-100 {
+        padding: 40px 0;
+    }
+
+    section.pt-100 {
+        padding-top: 40px;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+    .content_head2 h3 {
+        font-size: 20px;
+    }
+
+    .contents_banner_img {
+        height: 100%;
+        margin-top: 190px;
+    }
+
+    .contents_banner_img>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .white_card>h3,
+    .gray_card>h3 {
+        font-size: 20px;
+    }
+
+    .pb_md_50 {
+        padding-bottom: 0;
+    }
+
+    .pt_md_100 {
+        padding-top: 50px;
+    }
+
+    .pt_md_40 {
+        padding-top: 40px;
+    }
+
+    .main_head {
+        margin-bottom: 50px;
+    }
+
+    .mt_md_50 {
+        margin-top: 0;
+    }
+
+    .aboutme_desc {
+        padding: 25px;
+    }
+
+    .about_me {
+        padding: 0 0 40px 0;
+    }
+
+    .my_value>h3 {
+        font-size: 21px;
+        margin-bottom: 30px;
+    }
+
+    .aboutme_desc {
+        padding: 15px;
+    }
+
+    .about_me_head h3 {
+        font-size: 21px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .row.my_work_row>div:first-child,
+    .row.my_work_row>div:last-child {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .row.my_work_row>div:first-child {
+        margin-bottom: 35px;
+        padding-top: 30px;
+    }
+
+    .my_work_row>div>h2 {
+        margin-bottom: 20px;
+    }
+
+    .my_work_row>div>p {
+        margin-bottom: 30px;
+    }
+
+    .scp_wrap {
+        flex-direction: column;
+    }
+
+    .scp_w30 {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .scp_w70 {
+        width: 100%;
+    }
+
+    .white_card {
+        padding: 15px;
+        background-color: var(--white)
+    }
+
+    .pr-20 {
+        padding-right: 12px;
+    }
+
+    .pl-20 {
+        padding-left: 15px;
+    }
+
+    .content_working .row>div:first-child {
+        margin-bottom: 30px;
+    }
+
+    .about_desc_img {
+        position: static;
+        transform: translateX(0);
+        width: 100%;
+    }
+
+    .about_desc_img>img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .about_desc_img .hi_badge {
+        position: absolute;
+        left: auto;
+        right: 0;
+        top: auto;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav ul li:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+}
